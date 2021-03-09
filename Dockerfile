@@ -7,10 +7,9 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["NetCore-Dockerization/NetCore-Dockerization.csproj", "NetCore-Dockerization/"]
-RUN dotnet restore "NetCore-Dockerization/NetCore-Dockerization.csproj"
+COPY *.csproj ./
+RUN dotnet restore "NetCore-Dockerization.csproj"
 COPY . .
-WORKDIR "/src/NetCore-Dockerization"
 RUN dotnet build "NetCore-Dockerization.csproj" -c Release -o /app/build
 
 FROM build AS publish
