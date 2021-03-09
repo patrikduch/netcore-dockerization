@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore-Dockerization", "NetCore-Dockerization\NetCore-Dockerization.csproj", "{C8DF2DB0-4B71-4033-AC94-98FED9DB2C42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore-Dockerization", "NetCore-Dockerization.csproj", "{7C8B9510-0798-480F-AA80-45689A6D1C28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C8DF2DB0-4B71-4033-AC94-98FED9DB2C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8DF2DB0-4B71-4033-AC94-98FED9DB2C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8DF2DB0-4B71-4033-AC94-98FED9DB2C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8DF2DB0-4B71-4033-AC94-98FED9DB2C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C8B9510-0798-480F-AA80-45689A6D1C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8B9510-0798-480F-AA80-45689A6D1C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8B9510-0798-480F-AA80-45689A6D1C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8B9510-0798-480F-AA80-45689A6D1C28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
