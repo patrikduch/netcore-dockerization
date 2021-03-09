@@ -14,7 +14,7 @@ phases:
     commands:
     - echo Build started on `date`
     - echo $IMAGE_URI
-    - dotnet run build -Ddockerfile.skip
+    - dotnet run build
     - docker build --tag $IMAGE_URI .
   post_build:
     commands:
