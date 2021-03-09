@@ -15,7 +15,7 @@ namespace NetCore_Dockerization.Controllers
             return new ProjectDetail
             {
                 Id = 1,
-                Name = "Test application in .NETCore on AWS cloud platform!",
+                Name = "Test application in .NETCore on AWS cloud platform",
                 Author = "Patrik Duch"
             };
         }
