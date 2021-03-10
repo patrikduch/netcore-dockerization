@@ -4,7 +4,7 @@ namespace NetCore_Dockerization.Controllers
     using Microsoft.AspNetCore.Mvc;
     using NetCore_Dockerization.Models;
 
-    [Route("api/project")]
+    [Route("")]
     [ApiController]
     public class ProjectDetailController : ControllerBase
     {
